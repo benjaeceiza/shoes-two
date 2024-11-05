@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "nombre": "Air Jordan 1 Mid SE Panda Elephant",
+        "descripcion": "Look fresco, sensación familiar. Cada vez que el AJ1 se renueva, obtienes el calzado clásico con nuevos colores y texturas. Los materiales y los detalles premium aportan una expresión moderna al favorito de siempre.",
+        "precio": 259.999,
+        "imagen": "https://nikearprod.vtexassets.com/arquivos/ids/811841-1000-1000?v=638382452835430000&width=1000&height=1000&aspect=true",
+        "categoria": "jordan1",
+        "stock":10
+    },
+    {
+        "id": 2,
+        "nombre": "Air Jordan 1 Retro High OG UNC Toe",
+        "descripcion": "El Air Jordan 1 Retro High renueva el calzado clásico, y te ofrece un nuevo look con una sensación familiar. Los materiales premium con nuevos colores y texturas aportan un toque moderno al favorito de siempre.",
+        "precio": 349.999,
+        "imagen": "https://nikearprod.vtexassets.com/arquivos/ids/732026-1200-1200?width=1200&height=1200&aspect=true",
+        "categoria": "jordan1",
+        "stock":10
+    },
+    {
+        "id": 3,
+        "nombre": "Air Jordan 1 High OG Mauve",
+        "descripcion": "El Air Jordan 1 High OG revive el clásico, te da un look icónico con una sensación familiar. Los revestimientos de cuero malva ofrecen un ligero contraste con la parte superior de color neutro para crear un acabado impecable y adecuado para la temporada. Igual que el tiro en suspensión característico de MJ, esta expresión moderna del favorito de todos los tiempos es básquetbol puro.",
+        "precio": 349.999,
+        "imagen": "https://nikearprod.vtexassets.com/arquivos/ids/810316-1200-1200?width=1200&height=1200&aspect=true",
+        "categoria": "jordan1",
+        "stock":10
+    },
+    {
+        "id": 4,
+        "nombre": "Air Jordan 1 Mid",
+        "descripcion": "El calzado Air Jordan 1 Mid aporta estilo en toda la cancha y comodidad premium a un look icónico. La unidad Air-Sole amortigua el partido en las canchas, y el cuello acolchado ofrece una mayor sujeción.",
+        "precio": 229.999,
+        "imagen": "https://nikearprod.vtexassets.com/arquivos/ids/702686-1200-1200?width=1200&height=1200&aspect=true",
+        "categoria": "jordan1",
+        "stock":10
+    },
+    {
+        "id": 5,
+        "nombre": "Air Jordan 4 Craft Olive",
+        "descripcion": "Aquí está el clásico de 1989, ahora en elegantes tonos tierra. La gamuza, el cuero y las telas se unen en la parte superior para lograr un look verdaderamente texturizado. Y, por supuesto, también tiene todos tus elementos favoritos del AJ4, como los ojales flotantes y los paneles laterales inspirados en la malla.",
+        "precio": 359.999,
+        "imagen": "https://nikearprod.vtexassets.com/arquivos/ids/811874-1200-1200?width=1200&height=1200&aspect=true",
+        "categoria": "jordan4",
+        "stock":10
+    },
+    {
+        "id": 6,
+        "nombre": "Air Jordan 4 Retro Red Cement",
+        "descripcion": "Estilo llamativo, herencia icónica. Con materiales premium y un diseño llamativo, el Air Jordan 4 Retro actualiza uno de los estilos más queridos de Jordan.",
+        "precio": 359.999,
+        "imagen": "https://nikearprod.vtexassets.com/arquivos/ids/730756-1200-1200?width=1200&height=1200&aspect=true",
+        "categoria": "jordan4",
+        "stock":10
+    },
+    {
+        "id": 7,
+        "nombre": "Nike SB Chron 2 Canvas",
+        "descripcion": "LA NUEVA GENERACIÓN DEL CHRON.El Nike SB Chron 2 Canvas es el miembro más nuevo de la familia Chron.La actualización del diseño incluye una zona del cuello y un talón renovados para ofrecer un ajuste mejorado y mantener la comodidad y el rendimiento que esperas de Nike SB.Beneficios•El lienzo es flexible y transpirable.•La espuma amortigua cada pisada.•La confección vulcanizada une la suela con la parte superior para aportar una sensación flexible.•La banda protectora en la punta agrega durabilidad.Dato",
+        "precio": 82.999,
+        "imagen": "https://nikearprod.vtexassets.com/arquivos/ids/209702-1200-1200?width=1200&height=1200&aspect=true",
+        "categoria": "skateboarding",
+        "stock":10
+    },
+    {
+        "id": 8,
+        "nombre": "Nike SB Chron 2",
+        "descripcion": "LA NUEVA GENERACIÓN DEL CHRON.El Nike SB Chron 2, flexible y transpirable, es una versión a la altura de sus predecesoras.La actualización del diseño incluye un cuello y un talón renovados para ofrecer un ajuste mejorado y mantener la comodidad y el rendimiento que esperas de Nike SB.",
+        "precio": 104.999,
+        "imagen": "https://nikearprod.vtexassets.com/arquivos/ids/155515-1200-1200?width=1200&height=1200&aspect=true",
+        "categoria": "skateboarding",
+        "stock":10
+    },
+    {
+        "id": 9,
+        "nombre": "Nike SB Zoom Janoski OG",
+        "descripcion": "El Janoski llega a tope después de un año de R&R (investigación y rediseño) y continúa el recorrido de la exclusiva línea de skateboarding de Stefan. La banda de rodamiento específica para skate proporciona un excelente deslizamiento y contacto con la patineta. Una parte superior rediseñada ayuda a brindarte un mejor ajuste y comodidad, lo que abre la puerta para un rendimiento del siguiente nivel.",
+        "precio": 167.999,
+        "imagen": "https://nikearprod.vtexassets.com/arquivos/ids/878545-1200-1200?width=1200&height=1200&aspect=true",
+        "categoria": "skateboarding",
+        "stock":10
+    },
+    {
+        "id": 10,
+        "nombre": "Nike SB Dunk Low Pro Premium Mystic Red Rosewood",
+        "descripcion": "Lleva tu estilo en los pies. Con un toque renovado en el icónico calzado de skateboarding, los revestimientos de lona encerada y la marca retro hacen alusión a tu mochila favorita de los 90. Los detalles ocultos, como la guía de la plantilla, te recuerdan perseguir tus metas, mientras que los revestimientos de gamuza y la suela de goma te permiten transportarte con un estilo impecable.",
+        "precio": 209.999,
+        "imagen": "https://nikearprod.vtexassets.com/arquivos/ids/731622-1200-1200?width=1200&height=1200&aspect=true",
+        "categoria": "skateboarding",
+        "stock":10
+    },
+    {
+        "id": 11,
+        "nombre": "Nike Air Max SC",
+        "descripcion": "Con sus líneas simples, el look de atletismo tradicional y, por supuesto, la amortiguación Air visible, el Nike Air Max SC es el toque final perfecto para cualquier atuendo. La mezcla rica de materiales agrega profundidad, a la vez que lo convierte en un calzado duradero y ligero para el día a día.",
+        "precio": 143.999,
+        "imagen": "https://nikearprod.vtexassets.com/arquivos/ids/809017-1200-1200?width=1200&height=1200&aspect=true",
+        "categoria": "airmax",
+        "stock":10
+    },
+    {
+        "id": 12,
+        "nombre": "Nike Air Max Dn",
+        "descripcion": "Nuestro sistema de unidades Dynamic Air cuenta con dos juegos de tubos de presión dual. Al tener una mayor cantidad de presión en el talón y una más suave hacia el mediopié, los niveles de aire cambian dentro de cada juego para ofrecer una transición suave en cada",
+        "precio": 299.999,
+        "imagen": "https://nikearprod.vtexassets.com/arquivos/ids/981992-1000-1000?v=638555468245800000&width=1000&height=1000&aspect=true",
+        "categoria":"airmax",
+        "stock":10
+    }
+]

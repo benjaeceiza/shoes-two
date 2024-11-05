@@ -1,68 +1,491 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+
+
+/* NAVBAR */
+
+
+.Item {
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+.Item:hover {
+    background-color: rgb(155, 155, 155);
+    color: white;
+    border-radius: 5px;
+    transition: all .3s;
+
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+
+/* NAVBAR MOBILE */
+
+.nav-bar-mob {
+    display: none;
+
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.nav-link {
+
+    padding: 10px;
+    margin-top: 5px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+
+/* item */
+
+
+
+
+
+
+/* LOADER */
+
+.cargando {
+
+    height: 700px;
+
+    margin: 400px auto;
+}
+
+.ContenedorBarra {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.Logo {
+    height: 120px;
+}
+
+.Lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.Enlace {
+    text-decoration: none;
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* INICIO */
+
+/* CARRUCEL */
+
+
+
+
+.fondo {
+
+    background-image: url(./assets/fondo-jordan2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+
+
+.carousel-inner {
+    width: 50vw;
+    margin: auto;
+}
+
+.fondo-btn{
+    background-color: rgba(0, 0, 0, 0.342);
+    z-index: 0;
+}
+
+.color1 {
+    background-color: gray;
+    transition: all 1s;
+}
+
+.color2 {
+    background-color: rgb(86,65,139);
+    transition: all 1s;
+}
+
+.color3 {
+    background-color: rgb(188,113,109);
+    transition: all 1s;
+}
+
+.color4 {
+    background-color: rgb(82,171,190);
+    transition: all 1s;
+}
+
+.color5 {
+    background-color: rgb(188,147,122);
+    transition: all 1s;
+}
+
+.color6 {
+    background-color: rgb(179,5,17);
+    transition: all 1s;
+}
+
+.color7 {
+    background-color: rgb(69,143,195);
+    transition: all 1s;
+}
+
+
+
+
+
+
+
+
+/* ItemDetailContainer */
+
+
+
+.container {
+
+    min-height: 800px;
+    text-align: center;
+
+}
+
+.img-detail {
+    height: 500px;
+}
+
+
+
+.contenedor {
+    margin: 50px 0px;
+}
+
+.contenedor-talles {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.talles {
+    text-align: center;
+    width: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid rgb(0, 0, 0) 2px;
+
+}
+
+.talles:hover {
+    opacity: 0.3;
+
+}
+
+.descripcion {
+    width: 50%;
+    margin: 50px auto;
+    text-align: justify;
+}
+
+.contenedor-precio-boton {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.contenedor-precio-boton-2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.precio-detail {
+    font-size: 20px;
+
+}
+
+.boton-stock {
+    border: 0;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+
+.cantidad {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.btn-agregar-carrito {
+    width: 200px;
+
+    padding: 5px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin: 0px 100px;
+}
+
+
+/* CARRITO */
+
+
+.carrito-logo-numero {
+    display: flex;
+
+}
+
+.carrito-logo-numero p {
+    background-color: white;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.carrito-vacio {
+    position: absolute;
+    background-color: white;
+    z-index: +1;
+    text-align: center;
+    padding: 150px;
+    width: 100%;
+    border-bottom: solid 2px black;
+}
+
+.titulo-carrito-vacio {
+    margin-top: 10px;
+}
+
+
+
+
+.contenedor-tabla-boton {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    border: solid black 1px;
+    padding-top: 20px;
+    z-index: +1;
+}
+
+.table {
+    text-align: center;
+}
+
+.contenedor-total-boton {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.total {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.boton-ir-pagar {
+    padding: 10px 20px;
+    margin: 20px;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+/* CHECKOUT */
+
+.contenedor-checkout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px 0px;
+
+}
+
+.contenedor-form {
+
+    width: 600px;
+    min-width: 200px;
+}
+
+.contenedor-detalle-compra {
+    text-align: center;
+    width: 800px;
+    min-width: 200px;
+
+}
+
+.contenedor-detalle-compra h1 {
+    margin: 50px;
+}
+
+
+/* FOOTER */
+
+.footer-contenedor {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding: 80px 0px 20px 0px;
+
+}
+
+.footer-subtitulo {
+    color: white;
+    font-family: 'nike';
+}
+
+.footer-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgb(166, 164, 164);
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.redes img {
+    height: 40px;
+    margin: 0px 5px;
+}
+
+/* SUBFOOTER */
+
+.subfooter {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+
+.ubicacion {
+    display: flex;
+}
+
+.ubicacion a {
+    text-decoration: none;
+    color: white;
+}
+
+.ubicacion p {
+    color: white;
+    margin-left: 20px;
+}
+
+.terminos-condiciones a {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+.footer-mob {
+    display: none;
+}
+
+
+
+/* MEDIA QUERYS */
+
+@media(max-width:850px) {
+
+    .footer-contenedor {
+        display: none;
+    }
+
+    /* FOOTER MOBILE */
+
+    .footer-mob {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    .subtitulo {
+        font-family: 'nike';
+    }
+
+
+
+    .fondo{
+        height: 50vh;
+        
+    }
+
+    .carousel-item{
+        margin-top: 10vh;
+    }
+    
+    .fondo-btn{
+        background-color: rgba(0, 0, 0, 0.178);
+    }
+
+    .carousel-inner{
+        width: 90%;
+    }
+
+     
+}
+
+
+@media(max-width:705px) {
+
+    .nav-bar-mob {
+        display: block;
+    }
+
+    .ContenedorBarra {
+        display: none;
+    }
+
+}
+
+@media(max-width:530px) {
+
+    .img-detail {
+
+        height: 90vw;
+    }
+
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'nike';
+    src: url(./assets/tipografias/jane-roe.bold-italic.ttf);
 }
